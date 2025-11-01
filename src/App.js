@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Public from "./components/Public";
 import Login from "./feachers/auth/Login";
+import Register from "./feachers/auth/Register";
 import DashLayout from "./components/DashLayout";
 import Welcome from "./feachers/auth/Welcome";
 import NotesList from "./feachers/notes/NotesList";
@@ -22,6 +23,7 @@ function App() {
         {/* public routes */}
         <Route index element={<Public />} />
         <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
 
         {/* protected routes */}
         <Route element={<PersistLogin />}>
