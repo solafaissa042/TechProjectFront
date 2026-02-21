@@ -60,7 +60,7 @@ const Login = () => {
       <header>
         <h1>Employee Login</h1>
       </header>
-      <main className="login">
+      <main>
         <p ref={errRef} className={errClass} aria-live="assertive">
           {errMsg}
         </p>

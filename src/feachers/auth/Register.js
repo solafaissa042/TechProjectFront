@@ -92,7 +92,7 @@ const Register = () => {
         <header>
           <h1>Employee Register</h1>
         </header>
-        <main className="register">
+        <main>
           <p ref={errRef} className={errMsg ? "errMsg" : "offscreen"}>
             {errMsg}
           </p>
