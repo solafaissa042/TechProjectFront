@@ -93,7 +93,7 @@ const Register = () => {
           <h1>Employee Register</h1>
         </header>
         <main>
-          <p ref={errRef} className={errMsg ? "errMsg" : "offscreen"}>
+          <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"}>
             {errMsg}
           </p>
           <form className="form" onSubmit={handleSubmit}>
