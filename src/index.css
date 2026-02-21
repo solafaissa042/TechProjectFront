@@ -117,17 +117,24 @@ a:focus-visible {
   flex-grow: 1;
 }
 
-.public__main,
-.login,.register {
+.public__main
+{
   flex-grow: 1;
-  border-top: 2px solid var(--BORDER-COLOR);
+  border-top: 2px solid var(--BORDER-COLOR); 
   border-bottom: 2px solid var(--BORDER-COLOR);
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
-.public__addr {
-  margin-top: 1em;
+.login,.register {
+  border: 2px solid var(--BORDER-COLOR);
+  padding: 5px;
+  border-radius: 15%;
+  margin-right: 10px;
 }
+.public__main-p{
+    margin-top: 10px;
+}
+
 
 .welcome a::before {
   content: "➜ "
